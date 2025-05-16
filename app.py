@@ -83,7 +83,7 @@ def seed():
 
 @app.route('/')
 def index():
-    return "Bienvenido a la API de TeleTeach"
+    return "✅ Bienvenido a la API de TeleTeach"
 
 
 # ------------------ MAIN ------------------
