@@ -81,6 +81,11 @@ def seed():
     db.session.commit()
     print('Contenido inicial agregado.')
 
+@app.route('/')
+def index():
+    return "Bienvenido a la API de TeleTeach"
+
+
 # ------------------ MAIN ------------------
 if __name__ == '__main__':
     app.run(debug=True)
